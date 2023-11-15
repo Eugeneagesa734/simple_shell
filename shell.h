@@ -123,7 +123,7 @@ int _myalias(info_t *info);
 char **get_environ(info_t *info);
 
 void free_list(list_t **head);
-
+void _setenv(info_t *info, const char *name, const char *value);
 
 void _eputs(const char *str);
 void _eputchar(char c);
